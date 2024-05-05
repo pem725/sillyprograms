@@ -10,7 +10,7 @@ def play_message():
 
 def main():
     duration = 10 * 60  # 10 minutes in seconds
-    interval = 3  # interval between messages in seconds
+    interval = 1  # interval between messages in seconds
     start_time = time.time()
 
     print("Press Ctrl-Z to stop. None of them work. If you find one that works man, don't hog it. Share it. Sharing is caring.")
