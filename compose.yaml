@@ -1,0 +1,6 @@
+services:
+  sillyprograms:
+    image: sillyprograms
+    build:
+      context: .
+      dockerfile: ./Dockerfile
